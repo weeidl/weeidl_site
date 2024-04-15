@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:weeidl/extensions.dart';
-import 'package:weeidl/screens/adaptive/adaptive_row_column.dart';
 import 'package:weeidl/screens/home/intro_section/cubit/dragon_cubit.dart';
 import 'package:weeidl/screens/app_bar/widget/social_widget.dart';
 import 'package:weeidl/screens/home/intro_section/widget/story_widget.dart';

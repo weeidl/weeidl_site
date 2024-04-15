@@ -1,10 +1,9 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:go_router/go_router.dart';
 import 'package:weeidl/extensions.dart';
 import 'package:weeidl/screens/adaptive/adaptive_padding.dart';
-import 'package:weeidl/screens/adaptive/adaptive_text.dart';
 import 'package:weeidl/themes/colors.dart';
 import 'package:weeidl/themes/text_style.dart';
 
@@ -38,7 +37,9 @@ class _GetToKnowCardWidgetState extends State<GetToKnowCardWidget> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        context.go('/test');
+      },
       child: MouseRegion(
         onEnter: (_) {
           setState(() {

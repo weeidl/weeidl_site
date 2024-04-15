@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
-
 extension ContextExtensions on BuildContext {
   bool get isMobile => MediaQuery.of(this).size.width < 600;
   bool get isTablet =>

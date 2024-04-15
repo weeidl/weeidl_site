@@ -23,17 +23,17 @@ class _WeeidlAppBarState extends State<WeeidlAppBar> {
 
   @override
   void initState() {
-    widget.controller.addListener(() {
-      if (widget.controller.offset >= 50) {
-        setState(() {
-          isScrolled = true;
-        });
-      } else {
-        setState(() {
-          isScrolled = false;
-        });
-      }
-    });
+    // widget.controller.addListener(() {
+    //   if (widget.controller.offset >= 50) {
+    //     setState(() {
+    //       isScrolled = true;
+    //     });
+    //   } else {
+    //     setState(() {
+    //       isScrolled = false;
+    //     });
+    //   }
+    // });
     super.initState();
   }
 

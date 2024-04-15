@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:o3d/o3d.dart';
 import 'package:weeidl/extensions.dart';

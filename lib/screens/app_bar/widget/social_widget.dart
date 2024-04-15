@@ -48,7 +48,12 @@ class _SocialWidgetState extends State<SocialWidget> {
           }
         },
         child: isSvg(widget.image)
-            ? SvgPicture.asset(imagePath, color: color, width: 24)
+            ? SvgPicture.asset(imagePath,
+                colorFilter: ColorFilter.mode(
+                  color ?? AppColor.white,
+                  BlendMode.srcIn,
+                ),
+                width: 24)
             : Image.asset(imagePath, color: color, width: 24),
       ),
     );

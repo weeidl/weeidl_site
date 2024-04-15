@@ -1,6 +1,3 @@
-import 'dart:async';
-import 'dart:developer';
-
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -54,7 +51,7 @@ class StoryWidget extends StatelessWidget {
               ),
             ),
           ),
-          Gap(16),
+          const Gap(16),
           Container(
             padding: context.isMobileAndTablet
                 ? const EdgeInsets.symmetric(horizontal: 44)

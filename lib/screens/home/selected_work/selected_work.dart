@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
 import 'package:weeidl/screens/projects/widget/project_card.dart';
 import 'package:weeidl/themes/colors.dart';
