@@ -56,7 +56,7 @@ class _GetToKnowCardWidgetState extends State<GetToKnowCardWidget> {
             boxShadow: [
               if (i)
                 BoxShadow(
-                  color: AppColor.black.withOpacity(0.8),
+                  color: AppColor.black.withValues(alpha: 0.8),
                   spreadRadius: 0,
                   blurRadius: 50,
                   offset: const Offset(0, 0),

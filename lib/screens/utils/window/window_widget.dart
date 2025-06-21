@@ -23,7 +23,7 @@ class WindowWidget extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: AppColor.white.withOpacity(0.2),
+            color: AppColor.white.withValues(alpha: 0.2),
             spreadRadius: 0,
             blurRadius: 20,
             offset: const Offset(0, 0),
@@ -53,7 +53,7 @@ class WindowWidget extends StatelessWidget {
             ),
           ),
           Divider(
-            color: AppColor.white.withOpacity(0.04),
+            color: AppColor.white.withValues(alpha: 0.8),
             height: 1,
           ),
           Expanded(

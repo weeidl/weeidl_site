@@ -14,7 +14,7 @@ class Footer extends StatelessWidget {
     return Column(
       children: [
         Divider(
-          color: AppColor.white.withOpacity(0.1),
+          color: AppColor.white.withValues(alpha: 0.1),
         ),
         const Gap(64),
         Padding(
